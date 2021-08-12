@@ -1,5 +1,5 @@
 {% set name = "ploomber-scaffold" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ploomber-scaffold-{{ version }}.tar.gz
-  sha256: bdd1f213d72ca940ad9827f2e94fbb41c0a70669478b855cac685a039c7e6a6c
+  sha256: 93f3a6abd8fe14012f3ffa309a76e3830fe61971bcc2a1cea72a9406c134c911
 
 build:
   number: 0
